@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & large binaries
+data/
+*.npz
+*.gz
+
+# Streamlit local credentials
+.streamlit/credentials.toml
+
+# OS generated files
+Thumbs.db
+.DS_Store
